@@ -35,9 +35,8 @@ white='\033[1;37m'
 sleep 1
 
 while [ "$siapa"  != "$nama" ];
-
 do
-
+ 
  figlet tirescell | lolcat
 
 echo $purple"welcome in script me "
@@ -67,15 +66,10 @@ clear
  clear
  
  echo $purple " ╔════╗╔═══╗╔═══╗╔╗───╔═══╗
-
   ║╔╗╔╗║║╔═╗║║╔═╗║║║───║╔═╗║
-
   ╚╝║║╚╝║║─║║║║─║║║║───║╚══╗
-
   ──║║──║║─║║║║─║║║║─╔╗╚══╗║
-
   ──║║──║╚═╝║║╚═╝║║╚═╝║║╚═╝║
-
   ──╚╝──╚═══╝╚═══╝╚═══╝╚═══╝ $Green by tirescell  "
 
 echo $Green "================================================="
@@ -101,9 +95,7 @@ sleep 1
 clear
 
 if [ $pilih = "1" ];
-
 then
-
   echo "weeman akan segera di install...."
  
  cd $Home
@@ -135,7 +127,6 @@ then
   clear
 
 elif [ $pilih = "2" ];
-
 then
 
  echo "darkvpro akan segera di install..."
@@ -167,7 +158,6 @@ then
  clear
 
 elif [ $pilih = "3" ];
-
 then
 
   echo "terkey akan segera di install..."
@@ -199,7 +189,6 @@ then
   clear
 
 elif [ $pilih = "4" ];
-
 then
 
   echo "spamsms akan segera di install..."
@@ -277,7 +266,6 @@ echo $Green "ingin lebih dekat dengan kami kunjungi web web di bawah ini"
   sleep 3
 
 elif [ $pilih = "99" ]
-
 then
 
   echo $lightred "bye bye....."
@@ -287,7 +275,6 @@ then
   sleep 2
 
 fi
-
 done
 
 
