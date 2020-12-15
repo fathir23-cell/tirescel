@@ -46,7 +46,7 @@ clear
 echo  "\033[1;33mwelcome in tools [$siapa]...:)"
 sleep 3
 clear
-echo  $lightblue "maugak jadi pacar aku awokawokawok.>
+echo  $lightblue "maugak jadi pacar aku $siapa awokawokawok..."
 echo  $darkgray
 sleep 2
 clear
